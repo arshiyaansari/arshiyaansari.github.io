@@ -143,7 +143,7 @@ events:
     date: "Aug 2018 - May 2019"
     title: "lead student data scientist"
     description: "developed, tested, and integrated growth data models to aid in local charlottesville businesses"
-  - image: "/img/timeline/cgi.png"
+  - image: "/img/timeline/bro.png"
     date: "Jun 2018 - Aug 2018"
     title: "technical consultant intern"
     description: "corresponded with clients at CMS for data analysis requests on healthcare insurance information"
@@ -154,7 +154,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/me.png"
+timeline-img: "/img/tl.png"
 
 ###########
 # Contact #
