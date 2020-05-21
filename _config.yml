@@ -1,0 +1,233 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://arshiyaansari.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: 
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Arshiya Ansari"
+title: "Arshiya Ansari"
+description: "Personal website of Arshiya Ansari."
+keywords: "arshiyaansari, arshiya, ansari, personal, software-engineering, uva, data-science, university-of-virginia"
+favicon: "/img/arsh.ico"
+
+################
+# Header layout #
+################
+
+# black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/cute.gif"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Data-driven, code-based."
+
+
+me-img: "/img/me2.png"
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "personal-jekyll-theme"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/apple.png"
+    date: "Jun 2020 - Today"
+    title: "special projects group: autonomous vehicles intern"
+    description: ""
+  - image: "/img/timeline/capone.png"
+    date: "Jun 2019 - Aug 2019"
+    title: "software engineering intern" 
+    description: "implemented a live time-series forecasting algorithm for data engine anomaly detection"
+  - image: "/img/timeline/hack.png"
+    date: "Aug 2018 - May 2019"
+    title: "lead student data scientist"
+    description: "developed, tested, and integrated growth data models to aid in local charlottesville businesses"
+  - image: "/img/timeline/cgi.png"
+    date: "Jun 2018 - Aug 2018"
+    title: "technical consultant intern"
+    description: "corresponded with clients at CMS for data analysis requests on healthcare insurance information"
+  - image: "/img/timeline/uva.png"
+    date: "Jan 2017 - Dec 2017"
+    title: "undergraduate researcher"
+    description: "collected and visualized data to analyze patterns in the predatory behavior of Myxococcus Xanthus"
+
+# First image of the Timeline
+
+timeline-img: "/img/me.png"
+
+###########
+# Contact #
+###########
+
+# email: "your@email.here"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Arshiya Ansari is a data-focused software engineer. She works hard to constantly improve herself, and help those around her."
+author_blurb_image: "/img/me2.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "envelope"
+    url: "mailto: arshiya@virginia.edu"
+  - title: "file"
+    url: "/arshiya_cv.pdf"
+  - title: "github"
+    url: "https://github.com/arshiyaansari"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/arshiya-ansari/"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+# keybase-username: johnsmith
+# keybase-in-social: True
+# keybase-in-footer: True
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Timeline: 'timeline'
+  Blog: 'latest-post'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
