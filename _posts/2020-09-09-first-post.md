@@ -2,8 +2,8 @@
 layout: post
 section-type: post
 title: Introductory blog post
-category: tech
-tags: [ 'blog', 'post' ]
+category: personal
+tags: [ 'blog', 'post', 'personal' ]
 ---
 
 My first introductory blog post begins with a reflection back on the journey that brought me here. In 2017, I made the biggest change of my life on my roommate’s twin-size mattress in the middle of the night. Dropping all of my pre-medical courses to pursue a computer science degree was something I never envisioned doing when I stepped on my college campus in 2016 — yet there I was! It just seemed like the best decision; it was written in my stars. In the next three years, I was immersed in a world so vibrant and evolving, I had never felt more at home. Through this blog, I hope to tell the story of my programming journey so it’ll help other people in tech find their footing. 
