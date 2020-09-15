@@ -133,7 +133,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/apple.png"
     date: "Jun 2020 - Today"
-    title: "special projects group: autonomous vehicles intern"
+    title: "special projects group: ai/ml intern"
     description: ""
   - image: "/img/timeline/capone.png"
     date: "Jun 2019 - Aug 2019"
