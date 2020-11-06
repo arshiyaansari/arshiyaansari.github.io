@@ -2,20 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Arshiya Ansari</title>
-		<description>Personal website of Arshiya Ansari.</description>
-		<link>http://localhost:4000</link>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<description>Data-driven, code-based</description>
+		<link>https://arshiyaansari.github.io</link>
+		<atom:link href="https://arshiyaansari.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>First blog post</title>
+				<title>Basic Algorithm Patterns for Coding Interviews</title>
 				
 				
-					<description>&lt;p&gt;Blog posts will be coming soon!&lt;/p&gt;
+					<description>&lt;p&gt;In this blog post, I hope to highlight some of the most common algorithm patterns I compiled while prepping for my coding interviews. When I first started prepping for coding interviews, I tended to &lt;em&gt;memorize&lt;/em&gt; the solutions for coding problems in the hopes that my interviewer would ask exactly the questions I studied. As you can guess, that never really happened so instead, I started to learn the patterns that are hidden in these problems so I could learn how to approach new problems – problems I’ve never seen before!&lt;/p&gt;
 </description>
 				
-				<pubDate>Thu, 30 Apr 2020 00:00:00 -0400</pubDate>
-				<link>http://localhost:4000/tech/2020/04/30/first-post.html</link>
-				<guid isPermaLink="true">http://localhost:4000/tech/2020/04/30/first-post.html</guid>
+				<pubDate>Mon, 19 Oct 2020 00:00:00 -0400</pubDate>
+				<link>https://arshiyaansari.github.io/technical/2020/10/19/algorithm-patterns.html</link>
+				<guid isPermaLink="true">https://arshiyaansari.github.io/technical/2020/10/19/algorithm-patterns.html</guid>
+			</item>
+		
+			<item>
+				<title>Introductory blog post</title>
+				
+				
+					<description>&lt;p&gt;My first introductory blog post begins with a reflection back on the journey that brought me here. In 2017, I made the biggest change of my life on my roommate’s twin-size mattress in the middle of the night. Dropping all of my pre-medical courses to pursue a computer science degree was something I never envisioned doing when I stepped on my college campus in 2016 — yet there I was! It just seemed like the best decision; it was written in my stars. In the next three years, I was immersed in a world so vibrant and evolving, I had never felt more at home. Through this blog, I hope to tell the story of my programming journey so it’ll help other people in tech find their footing.&lt;/p&gt;
+</description>
+				
+				<pubDate>Wed, 09 Sep 2020 00:00:00 -0400</pubDate>
+				<link>https://arshiyaansari.github.io/personal/2020/09/09/first-post.html</link>
+				<guid isPermaLink="true">https://arshiyaansari.github.io/personal/2020/09/09/first-post.html</guid>
 			</item>
 		
 	</channel>

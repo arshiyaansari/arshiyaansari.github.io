@@ -12,7 +12,7 @@ url: "https://arshiyaansari.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: 
+baseurl: ""
 
 # Google tracking id
 
@@ -31,15 +31,13 @@ force-https: True
 lang: "en"
 author: "Arshiya Ansari"
 title: "Arshiya Ansari"
-description: "Personal website of Arshiya Ansari."
-keywords: "arshiyaansari, arshiya, ansari, personal, software-engineering, uva, data-science, university-of-virginia"
+description: "Data-driven, code-based"
+keywords: "arshiyaansari, arshiya, ansari, machine learning, personal, software engineering, uva, university of virginia, data science, autonomy, apple"
 favicon: "/img/arsh.ico"
 
 ################
 # Header layout #
 ################
-
-# black-favicon: "/img/black-lab-glass.ico"
 
 background-img: "../img/cute.gif"
 
@@ -50,12 +48,12 @@ background-img: "../img/cute.gif"
 dynamic-typing: True
 shuffle: True # Shuffle the lines.
 loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
+loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Data-driven, code-based."
+  - text: "doing good with code. 🧠🤖"
 
 
 me-img: "/img/me2.png"
@@ -107,7 +105,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 36
 
 paginate: 5
 
@@ -132,13 +130,13 @@ syntax-highlight: True
 
 events:
   - image: "/img/timeline/apple.png"
-    date: "Jun 2020 - Today"
+    date: "Jun 2020 - Sept 2020"
     title: "special projects group: ai/ml intern"
-    description: ""
-  - image: "/img/timeline/capone.png"
-    date: "Jun 2019 - Aug 2019"
-    title: "software engineering intern" 
-    description: "implemented a live time-series forecasting algorithm for data engine anomaly detection"
+    description: "developed backend infrastructure for scalable and maintainable data set generation using prestoSQL, apache spark, and kubeflow"
+  - image: "/img/timeline/uva.png"
+    date: "Aug 2019 - May 2020"
+    title: "computer science teacher's assistant" 
+    description: "assisted in teaching undergraduate classes of java and algorithms by holding weekly office hours and lab sections"
   - image: "/img/timeline/hack.png"
     date: "Aug 2018 - May 2019"
     title: "lead student data scientist"
@@ -181,7 +179,7 @@ social:
   - title: "envelope"
     url: "mailto: arshiya@virginia.edu"
   - title: "file"
-    url: "/arshiya-resume.pdf"
+    url: "/arshiya-cv.pdf"
   - title: "github"
     url: "https://github.com/arshiyaansari"
   - title: "linkedin"
