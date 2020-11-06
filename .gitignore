@@ -16,4 +16,11 @@ test/
 _deploy/*
 Rakefile
 .jekyll-metadata
+.jekyll-cache/
+docker-compose.yml
+feed.xml
+manifest.json
+sitemap.xml
+.travis.yml
+._config.dev.yml 
 /.idea/
