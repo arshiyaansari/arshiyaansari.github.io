@@ -137,6 +137,10 @@ events:
     date: "Aug 2019 - May 2020"
     title: "computer science teacher's assistant" 
     description: "assisted in teaching undergraduate classes of java and algorithms by holding weekly office hours and lab sections"
+  - image: "/img/timeline/capone.png"
+    date: "Jun 2019 - Aug 2019"
+    title: "software engineering intern" 
+    description: "implemented a live time-series forecasting algorithm for data engine anomaly detection"
   - image: "/img/timeline/hack.png"
     date: "Aug 2018 - May 2019"
     title: "lead student data scientist"
@@ -209,8 +213,8 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-  # Projects: 'projects'
   Timeline: 'timeline'
+  # Projects: 'latest-project'
   Blog: 'latest-post'
   Contact: 'contact'
 
