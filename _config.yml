@@ -172,7 +172,7 @@ timeline-img: "/img/me.png"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Arshiya Ansari is a data-focused software engineer. She works hard to constantly improve herself, and help those around her through technology."
+author_blurb: "arshiya ansari is a data-focused software engineer."
 author_blurb_image: "/img/me2.png"
 
 ##################
