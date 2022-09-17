@@ -129,10 +129,14 @@ vkontakte-share: True
 ############
 
 events:
+  - image: "/img/timeline/new_apple.png"
+    date: "Jul 2021 - now"
+    title: "special projects group: ml engineer"
+    description: "develop backend infrastructure for scalable and maintainable data set generation using prestoSQL, apache pyspark, and kubeflow"
   - image: "/img/timeline/apple.png"
     date: "Jun 2020 - Sept 2020"
     title: "special projects group: ai/ml intern"
-    description: "developed backend infrastructure for scalable and maintainable data set generation using prestoSQL, apache spark, and kubeflow"
+    description: "aided in the creation of versioned, validated data sets for machine learning model evaluations"
   - image: "/img/timeline/uva.png"
     date: "Aug 2019 - May 2020"
     title: "computer science teacher's assistant" 
